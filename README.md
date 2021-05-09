@@ -4,8 +4,8 @@ Generator Function Capability in javascript
 - The repository contains an experiment to test the capability of generator function in a single threaded javascript environment.
 - The experiment is basically to test the execution time of large data set when implemented by generator function.
 
-Following were the conculsion of the experiment
-- In t
+**Following were the conculsion of the experiment**
+
 - In the experiment it was observed that the execution time for large data is very less as compared to the execution time of large data set with a traditional for loop approach.
 - The generator function provides the feature of lazy execution and memore optimization.
 - With the capability of laziness and optimized execution, the generator functions can be utilized on the browser side (web applications) as well where we can render a large amount of data lazily and can also optimize its execution time as well.
